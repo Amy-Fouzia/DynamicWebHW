@@ -1,17 +1,49 @@
-.column1 {
-    float: left;
-    width: 5%;
-    font-style: italic;
+body {
+    background-color: #F3EFE0;
+    border: 10px solid #555;
+    font-family: AnticDidone;
+}
+
+h1 {
+    color: #281A05;
+    text-align: center;
+}
+
+img {
+    float: right;
+}
+
+@font-face { 
+    font-family: AnticDidone; 
+    src: url('AnticDidone-Regular.ttf'); } 
+
+.recipe_title {
+    font-size: 45px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
   }
 
-  .column2 {
-    float: left;
-    width: 50%;
-  }
+.column1 {
+    width: 10%;
+    font-style: italic;
+}
+
+.column2 {
+    width: 30%;
+}
 
   /* Clear floats after the columns */
-  .row:after {
+.row:after {
     content: "";
     display: table;
     clear: both;
-  }
+}
+
+.center {
+    width: 640px;
+    margin-left: auto;
+    margin-right: auto;
+}

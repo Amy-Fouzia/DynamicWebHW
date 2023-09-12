@@ -21,6 +21,11 @@ img {
     font-size: 45px;
 }
 
+.desc {
+    width: 690px;
+    margin-left: 20px;
+}
+
 .row {
     display: flex;
     justify-content: center;

@@ -9,10 +9,20 @@ import InstructionsList from './InstructionsList'
 export default function Card(props) {
     return (
         <div class='card'>
-            <RecipeInfo title={RECIPE.title} desc={RECIPE.description} />
             <RecipeImg imgSrc={RECIPE.imgSrc} />
-            <IngredientsList ingredients={RECIPE.ingredients} />
-            <InstructionsList instructions={RECIPE.instructions} />
+            <div class='cardtext'>
+                <div class='row'>
+                    <RecipeInfo title={RECIPE.title} />
+                </div>
+                <div class='row'>
+                    <div class="column">
+                        <IngredientsList ingredients={RECIPE.ingredients} />
+                    </div>
+                    <div class="column">
+                        <InstructionsList instructions={RECIPE.instructions} />
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }

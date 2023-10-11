@@ -1,5 +1,6 @@
 import React from 'react'
 import RecipeCard from './RecipeCard'
+// @flow
 
 function App() {
   return (

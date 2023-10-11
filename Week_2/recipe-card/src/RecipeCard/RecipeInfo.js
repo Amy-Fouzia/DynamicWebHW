@@ -13,7 +13,7 @@ export default function RecipeInfo(props) {
                     </p>
                 </center>
             </div>
-            <hr/>
+            <hr></hr>
             <p class="desc">{desc}</p>
         </div>
     )

@@ -7,7 +7,7 @@ export default function IngredientsList(props) {
     return (
         <div>
             <h3>Ingredients</h3>
-            <ul>
+            <ul class='ing'>
                 {RECIPE.ingredients.map((ingred, index) => (<li key={index}>{ingred}</li>))}
             </ul>
         </div>

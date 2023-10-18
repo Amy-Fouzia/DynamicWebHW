@@ -1,2 +1,3 @@
-# DynamicWeb
-# Bored
+# Dynamic Web
+
+Classwork & Homework Repo

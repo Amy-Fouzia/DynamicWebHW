@@ -24,8 +24,7 @@ export default function UserRating() {
   return (
     <div className={styles.ratings_wrapper}>
       {count != 0 && <button onClick={handleMinusClick}>-</button>}
-      {/* Mapping over an array witgh count num
-      of slots and render a span with an HTML heart for each */}
+
       {[...Array(count)].map((heart, i) => {
         return (
           <span className={styles.heart} key={i}>
@@ -33,6 +32,7 @@ export default function UserRating() {
           </span>
         )
       })}
+      
       { count != 5 && <button onClick={handlePlusClick}>+</button> }
     </div>
   )
